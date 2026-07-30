@@ -1,0 +1,77 @@
+.hero-label {
+    color: #8b2635;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+  }
+  
+  .about-wrap {
+    max-width: 720px;
+  }
+  
+  .about-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 44px;
+    letter-spacing: 1px;
+    margin: 0 0 18px;
+  }
+  
+  .about-intro {
+    color: #9a958c;
+    font-size: 15.5px;
+    line-height: 1.7;
+    margin-bottom: 36px;
+  }
+  
+  .about-intro code {
+    background: #1d1d21;
+    padding: 2px 6px;
+    border-radius: 6px;
+    color: #e8b34d;
+    font-size: 13.5px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  
+  .team-card {
+    background: #17171a;
+    border: 1px solid #26262b;
+    border-radius: 14px;
+    padding: 20px;
+  }
+  
+  .team-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #8b2635;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .team-name {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+  
+  .team-role {
+    font-size: 11.5px;
+    color: #e8b34d;
+    margin-bottom: 8px;
+    letter-spacing: 0.3px;
+  }
+  
+  .team-note {
+    font-size: 13px;
+    color: #9a958c;
+    line-height: 1.5;
+  }

@@ -1,0 +1,89 @@
+.back-btn {
+    background: none;
+    border: none;
+    color: #9a958c;
+    font-size: 14px;
+    margin-bottom: 24px;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 40px;
+  }
+  
+  .detail-poster {
+    height: 380px;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  
+  .movie-rating {
+    background: rgba(0, 0, 0, 0.45);
+    color: #e8b34d;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 999px;
+  }
+  
+  .detail-genre {
+    color: #8b2635;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .detail-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 46px;
+    letter-spacing: 1px;
+    margin: 0 0 12px;
+  }
+  
+  .detail-meta {
+    color: #9a958c;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .detail-synopsis {
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: #d8d4cc;
+    margin-bottom: 26px;
+  }
+  
+  .cast-label {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #9a958c;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .cast-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .cast-tag {
+    background: #1d1d21;
+    border: 1px solid #2a2a2e;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+  }
+  
+  @media (max-width: 640px) {
+    .detail-grid {
+      grid-template-columns: 1fr;
+    }
+  }

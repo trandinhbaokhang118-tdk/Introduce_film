@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: #0b0b0c;
+  --panel: #17171a;
+  --panel2: #1d1d21;
+  --gold: #e8b34d;
+  --wine: #8b2635;
+  --text: #f2efe9;
+  --muted: #9a958c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+  flex: 1;
+}

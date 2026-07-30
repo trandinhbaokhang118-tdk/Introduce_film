@@ -1,0 +1,66 @@
+.site-footer {
+    border-top: 1px solid #2a2a2e;
+    padding: 40px 24px 24px;
+  }
+  
+  .footer-logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo em {
+    color: #e8b34d;
+    font-style: normal;
+  }
+  
+  .footer-grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 28px;
+  }
+  
+  .footer-text {
+    color: #9a958c;
+    font-size: 13.5px;
+    line-height: 1.6;
+    max-width: 320px;
+  }
+  
+  .footer-heading {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #e8b34d;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #9a958c;
+    font-size: 13.5px;
+  }
+  
+  .footer-bottom {
+    max-width: 1080px;
+    margin: 0 auto;
+    border-top: 1px solid #222226;
+    padding-top: 18px;
+    color: #6a655e;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 640px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
