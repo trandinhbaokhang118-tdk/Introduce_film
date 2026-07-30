@@ -27,20 +27,32 @@ export default function Header() {
           </span>
         </NavLink>
         <nav className="nav">
-          <NavLink
-            to="/"
-            end
-            className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
-          >
-            Trang chủ
-          </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
-          >
-            Giới thiệu
-          </NavLink>
-        </nav>
+  <NavLink
+    to="/"
+    end
+    className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+  >
+    Trang chủ
+  </NavLink>
+  <NavLink
+    to="/about"
+    className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+  >
+    Giới thiệu
+  </NavLink>
+  <NavLink
+    to="/lien-he"
+    className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+  >
+    Liên hệ
+  </NavLink>
+  <NavLink
+    to="/dang-ky"
+    className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+  >
+    Đăng ký
+  </NavLink>
+</nav>
       </div>
     </header>
   );
