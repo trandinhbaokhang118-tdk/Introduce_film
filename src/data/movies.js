@@ -1,0 +1,93 @@
+export const MOVIES = [
+    {
+      id: 1,
+      title: "Vệt Sáng Cuối Trời",
+      genre: "Chính kịch",
+      year: 2025,
+      duration: "118 phút",
+      rating: "8.4",
+      gradient: "linear-gradient(155deg,#3a2317,#8b2635)",
+      synopsis: "Một họa sĩ mù chữ nghĩa học lại cách nhìn thế giới qua âm thanh của thành phố.",
+      fullSynopsis:
+        "Sau một tai nạn cướp đi thị lực, Lam - một họa sĩ trẻ - buộc phải học cách cảm nhận màu sắc bằng âm thanh, mùi vị và ký ức. Bộ phim là hành trình cô đi tìm lại ánh sáng theo một nghĩa hoàn toàn khác, giữa những con hẻm Sài Gòn về đêm.",
+      director: "Trần Minh Khuê",
+      cast: ["Ngọc Hà", "Bảo Long", "Thanh Trúc"],
+    },
+    {
+      id: 2,
+      title: "Sóng Ngầm",
+      genre: "Hành động",
+      year: 2024,
+      duration: "132 phút",
+      rating: "7.9",
+      gradient: "linear-gradient(155deg,#0f2333,#1c5d73)",
+      synopsis: "Một đặc vụ hải quan phải chọn giữa nhiệm vụ và người anh em thất lạc.",
+      fullSynopsis:
+        "Khi một đường dây buôn lậu xuyên biên giới lộ diện, đặc vụ Kiên phát hiện kẻ cầm đầu chính là người anh trai mà anh tưởng đã mất tích mười năm trước. Giữa lằn ranh công lý và máu mủ, Kiên phải đưa ra lựa chọn định đoạt cả hai số phận.",
+      director: "Lý Anh Vũ",
+      cast: ["Quốc Cường", "Minh Đạt", "Hải Yến"],
+    },
+    {
+      id: 3,
+      title: "Chuông Gió",
+      genre: "Kinh dị",
+      year: 2025,
+      duration: "101 phút",
+      rating: "7.2",
+      gradient: "linear-gradient(155deg,#1a1a2e,#4b2e83)",
+      synopsis: "Tiếng chuông gió cũ trong căn nhà thừa kế báo hiệu điều không nên đánh thức.",
+      fullSynopsis:
+        "Về sống trong căn nhà cổ do bà ngoại để lại, Vy dần nhận ra chiếc chuông gió trước hiên không đơn thuần là vật trang trí. Mỗi lần nó ngân lên giữa đêm lặng gió, một ký ức bị chôn giấu của dòng họ lại trồi lên mặt nước.",
+      director: "Đặng Thảo Vy",
+      cast: ["Thu Hằng", "Anh Tú", "Kim Chi"],
+    },
+    {
+      id: 4,
+      title: "Nhịp Đập Sài Gòn",
+      genre: "Âm nhạc",
+      year: 2023,
+      duration: "109 phút",
+      rating: "8.1",
+      gradient: "linear-gradient(155deg,#3d2b13,#c98a2e)",
+      synopsis: "Một ban nhạc đường phố theo đuổi giấc mơ lớn từ những đêm diễn vỉa hè.",
+      fullSynopsis:
+        "Bốn người trẻ với bốn hoàn cảnh khác nhau tình cờ hợp thành một ban nhạc chơi ở góc phố Bùi Viện. Bộ phim ghi lại một năm họ cùng nhau vượt qua bất đồng, nợ nần và cả sự nghi ngờ của chính mình để đứng trên sân khấu lớn đầu tiên.",
+      director: "Phạm Gia Bảo",
+      cast: ["Gia Bảo", "Ngọc Diệp", "Thành Nam", "Hồng Nhung"],
+    },
+    {
+      id: 5,
+      title: "Lằn Ranh",
+      genre: "Tâm lý",
+      year: 2024,
+      duration: "124 phút",
+      rating: "8.6",
+      gradient: "linear-gradient(155deg,#241c1c,#5c2a2a)",
+      synopsis: "Một luật sư bào chữa phải đối mặt với thân chủ là chính hình ảnh phản chiếu của mình.",
+      fullSynopsis:
+        "Nhận bào chữa cho một bị cáo có quá khứ giống hệt mình, luật sư An dần bị cuốn vào việc đặt lại câu hỏi: liệu công lý có thật sự công bằng, hay chỉ là lằn ranh do chính con người vẽ ra tùy hoàn cảnh.",
+      director: "Vũ Hoài Nam",
+      cast: ["Việt Hoàng", "Lan Phương", "Đức Thịnh"],
+    },
+    {
+      id: 6,
+      title: "Mùa Ve Cuối",
+      genre: "Học đường",
+      year: 2025,
+      duration: "97 phút",
+      rating: "7.8",
+      gradient: "linear-gradient(155deg,#132b1e,#2f7d4f)",
+      synopsis: "Nhóm bạn thân dành mùa hè cuối cấp để hoàn thành một lời hứa bỏ dở từ năm lớp 10.",
+      fullSynopsis:
+        "Trước ngày chia tay mái trường, năm người bạn quyết định thực hiện danh sách những điều họ từng hứa sẽ làm cùng nhau. Giữa tiếng ve và những buổi chiều tan học, bộ phim là lát cắt dịu dàng về tuổi trẻ sắp trôi qua.",
+      director: "Ngô Thảo My",
+      cast: ["Bảo Ngọc", "Trung Kiên", "Yến Nhi", "Quang Huy"],
+    },
+  ];
+  
+  export const TEAM = [
+    { role: "Trưởng nhóm · feature/header-footer", name: "Nguyễn Văn A", note: "Dựng khung layout, Header & Footer" },
+    { role: "Thành viên · feature/home-page", name: "Trần Thị B", note: "Trang chủ & dữ liệu phim giả lập" },
+    { role: "Thành viên · feature/about-page", name: "Lê Văn C", note: "Trang giới thiệu nhóm" },
+    { role: "Thành viên · feature/movie-detail", name: "Phạm Thị D", note: "Trang chi tiết phim" },
+  ];

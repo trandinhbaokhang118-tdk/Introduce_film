@@ -1,0 +1,65 @@
+.movie-card {
+    text-align: left;
+    background: #17171a;
+    border: 1px solid #26262b;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-3px);
+    border-color: #3a3a3f;
+  }
+  
+  .movie-poster {
+    height: 150px;
+    position: relative;
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .movie-index {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.55);
+  }
+  
+  .movie-rating {
+    background: rgba(0, 0, 0, 0.45);
+    color: #e8b34d;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 999px;
+    height: fit-content;
+  }
+  
+  .movie-body {
+    padding: 16px;
+  }
+  
+  .movie-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  
+  .movie-meta {
+    font-size: 12px;
+    color: #9a958c;
+    margin-bottom: 10px;
+  }
+  
+  .movie-synopsis {
+    font-size: 13px;
+    color: #c9c5bd;
+    line-height: 1.55;
+    margin: 0;
+  }

@@ -1,0 +1,58 @@
+.site-header {
+    border-bottom: 1px solid #2a2a2e;
+    position: sticky;
+    top: 0;
+    background: rgba(11, 11, 12, 0.92);
+    backdrop-filter: blur(6px);
+    z-index: 10;
+  }
+  
+  .header-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #f2efe9;
+  }
+  
+  .logo-text {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+  }
+  
+  .logo-text em {
+    color: #e8b34d;
+    font-style: normal;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .nav-link {
+    background: transparent;
+    border: none;
+    color: #9a958c;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 999px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    color: #0b0b0c;
+    background: #e8b34d;
+  }
