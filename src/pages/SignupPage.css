@@ -1,0 +1,55 @@
+.signup-wrap {
+    max-width: 480px;
+  }
+  
+  .signup-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0 0 14px;
+  }
+  
+  .signup-intro {
+    color: #9a958c;
+    font-size: 15px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .signup-input {
+    background: #17171a;
+    border: 1px solid #26262b;
+    border-radius: 10px;
+    padding: 12px 14px;
+    color: #f2efe9;
+    font-family: inherit;
+    font-size: 14px;
+  }
+  
+  .signup-input:focus {
+    outline: none;
+    border-color: #e8b34d;
+  }
+  
+  .signup-error {
+    color: #e05252;
+    font-size: 13px;
+    margin: -4px 0 0;
+  }
+  
+  .signup-submit {
+    background: #e8b34d;
+    color: #0b0b0c;
+    border: none;
+    padding: 12px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+  }

@@ -40,6 +40,12 @@ export default function Header() {
           >
             Giới thiệu
           </NavLink>
+          <NavLink
+                to="/dang-ky"
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+                >
+                Đăng ký
+            </NavLink>
         </nav>
       </div>
     </header>
