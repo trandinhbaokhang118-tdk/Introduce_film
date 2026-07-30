@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import DetailPage from "./pages/DetailPage";
 import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 import "./App.css";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/movie/:id" element={<DetailPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
       <Footer />

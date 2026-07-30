@@ -40,6 +40,12 @@ export default function Header() {
           >
             Giới thiệu
           </NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+          >
+            Liên hệ
+          </NavLink>
         </nav>
       </div>
     </header>
