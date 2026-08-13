@@ -5,7 +5,7 @@ import "./AboutPage.css";
 export default function AboutPage() {
   return (
     <section className="about-wrap">
-      <div className="hero-label">VỀ CHÚNG TÔI</div>
+      <div className="hero-label">ABout - TestWebHook</div>
       <h1 className="about-title">Ê-kíp đứng sau Phòng Chiếu 08</h1>
       <p className="about-intro">
         Nhóm chúng tôi làm việc theo mô hình Git Flow: mỗi thành viên phát triển một nhánh{" "}
